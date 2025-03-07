@@ -12,7 +12,6 @@ body{
     align-items: center; */
     height: 100vh;
     background: hsl(0, 0%, 8%);
-    overflow: hidden;
 }
 header{
     background: hsl(0, 0%, 12%);

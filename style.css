@@ -25,33 +25,36 @@ header{
     width: 340px;
 }
 
-header img{
+header img {
+    max-width: 100px; /* Ensures image doesn't grow beyond this */
+    height: auto;
     border-radius: 50%;
-    width: 100px;
-    position: relative;
-    top: -10%;
+    display: block;
+    margin-bottom: 10px;
 }
 
 header h1{
     color: hsl(0, 0%, 100%);
     position: relative;
-    top: -5%;
     font-weight: 600;
     font-size: 24px;
+    margin-bottom: 5px;
+    text-align: center;
+    
 }
 header h2{
     color: hsl(75, 94%, 57%);
     font-weight: 600;
     font-size: 14px;
     position: relative; 
-    top: -3%;
+    margin-bottom: 20px; 
 }
 header p{
     color: hsl(0, 0%, 100%);
     font-size: 14px;
     font-weight: 400;
     position: relative;
-    top: 0%;
+    margin-bottom: 0px;
 }
 
 .buttons{
@@ -76,8 +79,16 @@ button:active{
     color:  hsl(0, 0%, 12%);
 }
 
-
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width: 768px) {
+    header{
+        width: 400px;
+    }
+    button{
+        width: 300px;
+    }
+}
 
 

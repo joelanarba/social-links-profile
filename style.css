@@ -80,6 +80,7 @@ button:active{
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
 @media screen and (min-width: 600px){
     header{
         width: 400px;
@@ -88,13 +89,13 @@ button:active{
         width: 100px;
     }
     header h1{
-        font-size: 32px;
+        font-size: 24px;
     }
     header h2{
-        font-size: 18px;
+        font-size: 16px;
     }
     header p{
-        font-size: 16px;
+        font-size: 14px;
     }
     button{
         width: 300px;
